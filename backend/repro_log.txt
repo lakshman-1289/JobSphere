@@ -1,0 +1,23 @@
+--- Starting Backend Test (HTTP) ---
+Registering Student: student_1770051444844@test.com
+Test failed with error: AggregateError
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1712:7)
+--- Starting Backend Test (HTTP) ---
+Registering Student: student_1770051575623@test.com
+Test failed with error: AggregateError
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1712:7)
+--- Starting Backend Test (HTTP) ---
+Registering Student: student_1770051640333@test.com
+Test failed with error: AggregateError
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1712:7)
+--- Starting Backend Test (HTTP) ---
+Registering Student: student_1770051806380@test.com
+Test failed with error: Error: connect ECONNREFUSED 127.0.0.1:5000
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)

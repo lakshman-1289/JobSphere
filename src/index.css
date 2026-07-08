@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+    background-color: #f8fafc;
+    background-image:
+      radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 0) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0) 0, transparent 50%);
+    background-image: radial-gradient(at 40% 20%, hsla(215, 98%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 80% 0%, hsla(189, 100%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, hsla(340, 100%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 80% 50%, hsla(240, 100%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(220, 100%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 80% 100%, hsla(240, 100%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 0% 0%, hsla(340, 100%, 96%, 1) 0px, transparent 50%);
+    min-height: 100vh;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
